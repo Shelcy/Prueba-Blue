@@ -18,7 +18,7 @@ export class Practice2Service {
       }
       return Object.values(set);
     } catch (error) {
-      throw new Error('Ocurrió un error al procesar la frase.');
+      throw new Error('!Ops¡ Ocurrió un error al procesar la información, intente nuevamente.');
     }
   }
 }
